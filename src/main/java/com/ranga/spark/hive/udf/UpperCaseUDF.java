@@ -8,7 +8,7 @@ import org.apache.hadoop.hive.ql.exec.UDF;
  * created: 8-Apr-2021
  */
 
-class UpperCaseUDF extends UDF {
+public class UpperCaseUDF extends UDF {
   public String evaluate(String input) {
     
     if(input == null || input.length() == 0) 
